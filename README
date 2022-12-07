@@ -1,0 +1,15 @@
+Simple netlink communication between a kernel module and a process 3.13
+
+Installing the linux headers
+
+You need to install the linux-headers-.. first as shown below. Depending on your distro, use apt-get or yum.
+
+# apt-get install build-essential linux-headers-$(uname -r)
+
+Next, create the following netlink.c module in C programming language.Create the following user.c module in C programming language.
+
+reate Makefile to Compile Kernel Module
+
+The following makefile can be used to compile the above simple netlink communication between a kernel module and a process 3.13
+
+Use the make command to compile  netlink communication as shown below.
